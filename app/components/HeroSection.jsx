@@ -33,11 +33,11 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1WSc0g2LfhboJsXslYD6W0a_R3fAkgvJT/view?usp=drive_link"
               className="px-1 inline-block py-1 w-full  sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 hover:text-red-600 text-white mt-3"
             >
               <span className="block bg-[#121212] border-2  border-gray-600 hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                Download Resume
               </span>
             </Link>
           </div>
@@ -48,11 +48,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-lg  bg-gradient-to-b from-[#E2DED0] mt-6 ml-12 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
+          <div className="rounded-lg  bg-gradient-to-b from-black mt-6 ml-12 w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
             <Image
-              src="/images/hero-image.png" priority
+              src="/images/hero-image.jpg" priority
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={280}
             />
